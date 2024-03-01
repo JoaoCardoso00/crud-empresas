@@ -30,6 +30,11 @@ Acrie um ambiente virtual para isolar as dependências do projeto:
 ```bash
 python -m venv venv
 ```
+ou
+```bash
+python3 -m venv venv
+```
+
 Ative o ambiente virtual:
 
 - No Windows:
@@ -46,17 +51,32 @@ Com o ambiente virtual ativado, instale o Django e o Django Rest Framework utili
 ```
 pip install django djangorestframework
 ```
+ou
+```
+pip3 install django djangorestframework
+```
+
 ## Executando o Projeto
 Dentro do diretório do projeto e com o ambiente virtual ativado, aplique as migrações do banco de dados:
 
 ```
 python manage.py migrate
 ```
+ou
+```
+python3 manage.py migrate
+```
+
 Em seguida, inicie o servidor de desenvolvimento:
 
 ```
 python manage.py runserver
 ```
+ou
+```
+python3 manage.py runserver
+```
+
 Agora você pode acessar a API navegando para http://127.0.0.1:8000/ no seu navegador ou utilizando uma ferramenta como Postman para testar as rotas da API.
 
 ## Rotas da API
