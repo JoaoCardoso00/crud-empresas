@@ -7,8 +7,6 @@ Este projeto é uma API desenvolvida com Django Rest Framework que permite reali
 Antes de iniciar, você precisará instalar os seguintes pré-requisitos em sua máquina:
 
 - **Python**: A linguagem de programação usada para desenvolver este projeto. [Guia de instalação do Python](https://www.python.org/downloads/).
-- **Django**: O framework web para desenvolvimento rápido para a web, escrito em Python. [Documentação de instalação do Django](https://docs.djangoproject.com/en/stable/intro/install/).
-- **Django Rest Framework**: Uma poderosa e flexível ferramenta para construir APIs web. [Guia de instalação do Django Rest Framework](https://www.django-rest-framework.org/#installation).
 
 ## Configuração do Ambiente
 
@@ -21,11 +19,15 @@ Clone o repositório para sua máquina local usando:
 ```
 git clone https://github.com/JoaoCardoso00/crud-empresas.git
 ```
+navegue até o diretório do projeto:
+```
+cd crud-empresas
+```
+
 ### 2. Crie um Ambiente Virtual
-Após clonar o repositório, navegue até o diretório do projeto e crie um ambiente virtual para isolar as dependências do projeto:
+Acrie um ambiente virtual para isolar as dependências do projeto:
 
 ```bash
-cd caminho_para_o_projeto
 python -m venv venv
 ```
 Ative o ambiente virtual:
